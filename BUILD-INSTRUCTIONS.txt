@@ -1,0 +1,5 @@
+HPC Craft - Windows cloud build
+
+Extract this archive and upload its CONTENTS (including .github and src folders) to a new GitHub repository via the browser. Commit to the default branch. In Actions, open Build HPC Craft for Windows. If necessary, enable Actions and click Run workflow. When the run succeeds, download HPC-Craft-Windows from Artifacts. Extract that archive and open HPC-Craft.exe.
+
+This package contains source code and a build recipe, not a precompiled EXE. The recipe has not been run here. If compilation fails, the workflow log will contain the error. Windows graphics drivers and potentially system runtime libraries may still be needed. GitHub account and available Actions minutes required.
